@@ -1,0 +1,47 @@
+/* // FONTS USED 
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Bevan', cursive; */
+
+/* COLORS USED 
+color: #5cbdbb;
+color: #5cbd8b; 
+background-color: #def1e7;
+background-color: #def1f1;
+*/
+
+body {
+  margin: auto;
+  max-width: 600px;
+  background-color: #def1e7;
+}
+header {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 8em;
+  color: #5cbd8b;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Catamaran", sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 13%;
+}
+.navigation {
+  padding: 3%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border: 2px solid black;
+}
