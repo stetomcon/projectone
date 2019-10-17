@@ -15,7 +15,7 @@ background-color: #D3D3D3; about me section
 
 body {
   margin: auto;
-  max-width: 600px;
+  max-width: 750px;
   background-color: #d3d3d3;
   background-image: url("/imgfolder/enter.jpg");
   background-repeat: no-repeat;
@@ -26,23 +26,23 @@ body {
 header {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  font-size: 10em;
+  font-size: 12em;
   color: #ecb814;
-  padding-top: 25%;
+  padding-top: 10%;
 
   /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
 }
 
 a {
   text-decoration: none;
-  color: rgb(255, 115, 0);
+  color: #f9b309;
 }
 a:hover {
-  color: orangered;
+  color: #e80b37;
 }
 h1 {
   text-align: right;
-  color: #ecb814;
+  color: #f9b309;
   font-size: 25px;
   margin-top: -5%;
   font-family: "Amatic SC", cursive;

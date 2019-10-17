@@ -15,7 +15,7 @@ background-color: #D3D3D3; about me section
 
 body {
   margin: auto;
-  max-width: 600px;
+  max-width: 750px;
   background-color: #dae4d3;
   background-image: url("/imgfolder/pineapple.jpg");
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
 header {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  font-size: 8em;
+  font-size: 9em;
   color: #b6c474;
   padding-top: 10%;
   /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
@@ -70,4 +70,24 @@ article {
   margin-right: 3.5%;
   margin-left: 3.5%;
   padding-bottom: 10%;
+  font-family: "Kanit", sans-serif;
+}
+
+h1 {
+  margin-right: 3.5%;
+  margin-left: 3.5%;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+}
+h2 {
+  margin-right: 3.5%;
+  margin-left: 3.5%;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
+}
+h3 {
+  margin-right: 3.5%;
+  margin-left: 3.5%;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
 }

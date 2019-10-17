@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="cssfolder/style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Bevan|Catamaran:800|Luckiest+Guy|Raleway:900&display=swap"
+      href="https://fonts.googleapis.com/css?family=Bevan|Kanit:200|Catamaran:800|Luckiest+Guy|Raleway:900&display=swap"
       rel="stylesheet"
     />
     <title>Project One</title>
@@ -20,14 +20,38 @@
       </nav>
     </div>
     <div class="inputsection">
-      <form action="pagesfolder/results.html">
-        <input type="text" name="Name" placeholder="Name" />
-        <input type="text" name="city" placeholder="City" />
-        <input type="text" name="zipcode" placeholder="Zip Code" />
+      <!-- <form action="pagesfolder/results.html"> -->
+      <form>
+        <!-- <input type="text" class="Name" placeholder="Name" /> -->
+        <input type="text" class="city" placeholder="City" />
+        <input type="text" class="zipcode" placeholder="Zip Code" />
         <input type="submit" value="submit" />
       </form>
     </div>
-
+    <div class="resultindex"></div>
+    <div class="map">
+      <div>
+        <iframe
+          width="760px"
+          title="WIC Vendor Map"
+          height="646px"
+          src="https://data.ct.gov/w/6ney-id6t/wqz6-rhce?cur=4FwqkJnHsnm&from=root"
+          frameborder="0"
+          scrolling="no"
+          ><a
+            href="https://data.ct.gov/Health-and-Human-Services/WIC-Vendor-Map/6ney-id6t"
+            title="WIC Vendor Map"
+            target="_blank"
+            >WIC Vendor Map</a
+          ></iframe
+        >
+        <p>
+          <a href="http://www.socrata.com/" target="_blank"
+            >Powered by Socrata</a
+          >
+        </p>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="

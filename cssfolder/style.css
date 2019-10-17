@@ -2,7 +2,9 @@
 font-family: 'Luckiest Guy', cursive;
 font-family: 'Raleway', sans-serif;
 font-family: 'Catamaran', sans-serif;
-font-family: 'Bevan', cursive; */
+font-family: 'Bevan', cursive; 
+font-family: 'Kanit', sans-serif;
+*/
 
 /* COLORS USED 
 color: #5cbdbb;
@@ -15,13 +17,13 @@ background-color: #D3D3D3; about me section
 
 body {
   margin: auto;
-  max-width: 600px;
+  max-width: 750px;
   background-color: #def1f1;
 }
 header {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  font-size: 8em;
+  font-size: 9em;
   color: #5cbdbb;
   padding-top: 10%;
   /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
@@ -50,14 +52,43 @@ li {
   z-index: 1;
 }
 
-.inputsection {
-  padding: 3%;
-  text-align: center;
-}
 a {
   text-decoration: none;
   color: white;
 }
 a:hover {
   color: #5cbdbb;
+}
+.inputsection {
+  padding: 3%;
+  text-align: center;
+  font-size: 10px;
+}
+.resultindex {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}
+
+h1 {
+  font-size: 14px;
+}
+h2 {
+  font-size: 12px;
+}
+h3 {
+  font-size: 12px;
+}
+h4 {
+  font-size: 12px;
+}
+h5 {
+  font-size: 12px;
+}
+.newdiv {
+  padding-bottom: 5%;
+}
+p {
+  font-family: "Catamaran", sans-serif;
+  color: rgb(3, 145, 136);
+  font-size: 18px;
 }
