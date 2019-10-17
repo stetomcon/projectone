@@ -10,4 +10,15 @@ $(() => {
     alert("Retrieved " + data.length + " records from the dataset!");
     console.log(data);
   });
+
+  // nav bar
+  let nav = document.getElementById("nav");
+  window.onscroll = function() {
+    if (window.pageYOffset > 100) {
+      nav.style.background = "#000000";
+      nav.style.opacity = "1.0";
+    } else {
+      nav.style.opacity = "0.5";
+    }
+  };
 });

@@ -1,0 +1,49 @@
+/* // FONTS USED 
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Bevan', cursive; */
+
+/* COLORS USED 
+color: #5cbdbb;
+color: #5cbd8b; 
+background-color: #def1e7;
+background-color: #def1f1;
+color: #ecb814; yellor for about me section
+background-color: #D3D3D3; about me section
+*/
+
+body {
+  margin: auto;
+  max-width: 600px;
+  background-color: #d3d3d3;
+  background-image: url("/imgfolder/enter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+header {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 10em;
+  color: #ecb814;
+  padding-top: 25%;
+
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 115, 0);
+}
+a:hover {
+  color: orangered;
+}
+h1 {
+  text-align: right;
+  color: #ecb814;
+  font-size: 25px;
+  margin-top: -5%;
+  font-family: "Amatic SC", cursive;
+}
