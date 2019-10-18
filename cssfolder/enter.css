@@ -28,7 +28,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 12em;
   color: #ecb814;
-  padding-top: 10%;
+  padding-top: 20%;
 
   /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
 }
@@ -46,4 +46,51 @@ h1 {
   font-size: 25px;
   margin-top: -5%;
   font-family: "Amatic SC", cursive;
+}
+
+/* ////
+////
+///
+//
+//
+MOBILE SECTION
+//
+///
+/// */
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: auto;
+    max-width: 750px;
+    background-color: #d3d3d3;
+    background-image: url("/imgfolder/enter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  header {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 5em;
+    color: #ecb814;
+    padding-top: 30%;
+
+    /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+  }
+
+  a {
+    text-decoration: none;
+    color: #f9b309;
+  }
+  a:hover {
+    color: #e80b37;
+  }
+  h1 {
+    text-align: center;
+    color: #f9b309;
+    font-size: 30px;
+    margin-top: -5%;
+    font-family: "Amatic SC", cursive;
+  }
 }
