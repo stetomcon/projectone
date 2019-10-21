@@ -4,9 +4,9 @@ $(() => {
       const $newdiv = $(`<div>`);
       $newdiv.addClass("newdiv");
 
-      const $store = $(`<p>`);
-      $store.text("STORE");
-      $(".resultindex").append($store);
+      // const $store = $(`<p>`);
+      // $store.text("STORE");
+      // $(".resultindex").append($store);
 
       const $h1 = $("<h1>");
       $h1.text(`${data[i].vendor}`);
@@ -51,8 +51,7 @@ $(() => {
   // });
   ///////// havent touched the upper part
 
-  //
-  //zip code results//
+  // zip code results//
   $("form").on("submit", event => {
     event.preventDefault();
 
@@ -76,7 +75,8 @@ $(() => {
 
     $.ajax({ url: endpoint }).then(wic);
   });
-  //
+
+  // //
 
   //
   // nav bar don't touch
