@@ -29,13 +29,13 @@ header {
   font-size: 12em;
   color: #ecb814;
   padding-top: 20%;
-
   /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
 }
-
 a {
   text-decoration: none;
   color: #f9b309;
+  transition: 3.5s;
+  -webkit-transition: 3.5s;
 }
 a:hover {
   color: #e80b37;

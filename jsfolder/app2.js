@@ -9,7 +9,10 @@ $(() => {
       $newdiv.append($h2);
       $(".resultindex").append($newdiv);
 
-      const $h3 = $("<a>").addClass("link");
+      const $h3 = $("<a>")
+        .addClass("link")
+        .attr("href", data[i].website.url)
+        .attr("target", "_blank");
       $h3.text(data[i].website.url);
       $newdiv.append($h3);
       $(".resultindex").append($newdiv);
