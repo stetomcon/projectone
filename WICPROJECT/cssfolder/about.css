@@ -116,6 +116,11 @@ not using this one ?? */
     margin-left: 2%;
     margin-right: 2%;
   }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 9%;
+  }
 }
 
 /* /////
@@ -215,5 +220,10 @@ THIS IS ONLY FOR CELL PHONE GOING LOWER
     color: white;
     margin-left: 2%;
     margin-right: 2%;
+  }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 9%;
   }
 }

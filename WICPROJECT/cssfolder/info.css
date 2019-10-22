@@ -110,6 +110,11 @@ background-color: #D3D3D3; about me section
     margin-left: 2%;
     margin-right: 2%;
   }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 9%;
+  }
 }
 /* /////
 ////
@@ -209,5 +214,10 @@ background-color: #D3D3D3; about me section
     color: white;
     margin-left: 2%;
     margin-right: 2%;
+  }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 9%;
   }
 }
