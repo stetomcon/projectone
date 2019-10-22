@@ -28,7 +28,7 @@ header {
   font-family: "Raleway", sans-serif;
   font-size: 12em;
   color: #ecb814;
-  padding-top: 20%;
+  padding-top: 25%;
   margin: auto;
   /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
 }
@@ -59,7 +59,7 @@ MOBILE SECTION
 ///
 /// */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 300px) {
   body {
     margin: auto;
     max-width: 600px;
@@ -75,7 +75,8 @@ MOBILE SECTION
     font-family: "Raleway", sans-serif;
     font-size: 5em;
     color: #ecb814;
-    padding-top: 30%;
+    padding-top: 10%;
+    margin-top: 30%;
 
     /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
   }
