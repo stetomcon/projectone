@@ -1,4 +1,4 @@
-                          <h1>WIC FINDER</h1>
+                          WIC FINDER
 
 ![img](/WICPROJECT/imgfolder/screenshot.png)
 
