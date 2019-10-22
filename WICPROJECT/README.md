@@ -1,4 +1,6 @@
-                            * WIC FINDER *
+                          <h1>WIC FINDER</h1>
+
+![img](/WICPROJECT/imgfolder/screenshot.png)
 
 link?
 https://stetomcon.github.io/WICPROJECT/
