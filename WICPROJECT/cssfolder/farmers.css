@@ -19,7 +19,7 @@ background-color: #D3D3D3; about me section
     margin: auto;
     max-width: 750px;
     background-color: #fca034;
-    background-image: url("/imgfolder/sidefood.jpg");
+    background-image: url("/WICPROJECT/imgfolder/sidefood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -151,7 +151,7 @@ background-color: #D3D3D3; about me section
     margin: auto;
     /* max-width: 00px; */
     background-color: #fca034;
-    background-image: url("/imgfolder/sidefood.jpg");
+    background-image: url("/WICPROJECT/imgfolder/sidefood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

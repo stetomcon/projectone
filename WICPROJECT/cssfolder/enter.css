@@ -17,7 +17,7 @@ body {
   margin: auto;
   max-width: 750px;
   background-color: #d3d3d3;
-  background-image: url("/imgfolder/enter.jpg");
+  background-image: url("/WICPROJECT/imgfolder/enter.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -63,7 +63,7 @@ MOBILE SECTION
     margin: auto;
     max-width: 750px;
     background-color: #d3d3d3;
-    background-image: url("/imgfolder/enter.jpg");
+    background-image: url("/WICPROJECT/imgfolder/enter.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
