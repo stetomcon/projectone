@@ -2,7 +2,7 @@
 
 ![img](/WICPROJECT/imgfolder/screenshot.png)
 
-link?
+**link?**
 https://stetomcon.github.io/WICPROJECT/
 
 **What is "WIC FINDER"?**
